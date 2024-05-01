@@ -1,0 +1,105 @@
+/*impor url e a fonte do meu painel de login*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*body ou seja o corpo esta com a margin 0 e com uma font*/
+body{
+    margin: 0;
+   font-family: 'none sans',sans-serif;
+}
+/*main-login e pra linkar a parte do div do meu html como se fose o body da minha pagina de login*/
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*left-login  seria a parte da esquerda do meu login */
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+/*aqui seria a cor do h1 do meu left login*/
+.left-login > h1{
+    color: blueviolet;
+}
+/*essa e a parte da direita do meu login*/
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    padding: 30px 35px;
+    background: rgb(60, 0, 116);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px black;
+
+
+}
+.card-login > h1 {
+    color: rgb(158, 65, 245);
+    font-weight: 800;
+    margin: 0;
+}
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 13px 0px;
+}
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #201b2c;
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #201b2c;
+    outline: none;
+    box-sizing: border-box;
+
+
+}
+.textfield > label{
+color: white;
+margin-bottom: 13px;
+
+}
+.textfield > input::placeholder{
+    color: darkgray;
+}
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #201b2c;
+    background:rgb(0, 17, 255) ;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px;
+}
+
+.btn-login:hover{
+    background-color: rgba(224, 47, 47, 0.5);
+
+
+}
